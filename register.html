@@ -2,33 +2,66 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>عن الكلية | الكلية للتصميم والإشراف</title>
-  <meta name="description" content="معلومات عن الكلية للتصميم والإشراف">
+  <title>التسجيل | الكلية للتصميم والإشراف</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      font-family:"Segoe UI",Tahoma,Arial,sans-serif;
+      background:#f6f6f6;
+      margin:0;
+    }
+    header{
+      background:linear-gradient(135deg,#0b2c4d,#c9a24d);
+      color:#fff;
+      padding:30px;
+      text-align:center;
+    }
+    .form-box{
+      max-width:500px;
+      background:#fff;
+      margin:40px auto;
+      padding:30px;
+      border-radius:10px;
+    }
+    input, select, button{
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      font-size:16px;
+    }
+    button{
+      background:#0b2c4d;
+      color:#fff;
+      border:none;
+      cursor:pointer;
+    }
+    button:hover{
+      background:#08304f;
+    }
+  </style>
 </head>
+<body>
 
-<body style="font-family: Arial; background:#ffffff; padding:20px">
+<header>
+  <h1>نموذج التسجيل</h1>
+</header>
 
-<h1>🏛️ عن الكلية</h1>
+<div class="form-box">
+  <form>
+    <input type="text" placeholder="الاسم الكامل" required>
+    <input type="tel" placeholder="رقم الهاتف" required>
+    <input type="email" placeholder="البريد الإلكتروني">
+    
+    <select>
+      <option>اختر الدورة</option>
+      <option>التصميم</option>
+      <option>الإشراف</option>
+      <option>التطوير المهني</option>
+    </select>
 
-<p>
-الكلية للتصميم والإشراف هي مؤسسة تعليمية مهنية
-تُعنى بتأهيل طلاب وطالبات لسوق العمل في مجالات:
-</p>
-
-<ul>
-  <li>🎨 التصميم الداخلي</li>
-  <li>🏗️ الإشراف والبناء</li>
-  <li>📐 الإدارة والتنظيم المهني</li>
-</ul>
-
-<p>
-نؤمن بالتعليم التطبيقي، المرافقة المهنية،
-وبناء مستقبل مهني حقيقي لطلابنا.
-</p>
-
-<br>
-<a href="index.html">⬅ العودة للصفحة الرئيسية</a>
+    <button type="submit">إرسال التسجيل</button>
+  </form>
+</div>
 
 </body>
 </html>
