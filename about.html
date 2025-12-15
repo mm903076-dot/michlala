@@ -5,31 +5,35 @@
   <title>عن الكلية | الكلية للتصميم والإشراف</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </style>
-    body{
-      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
-      background:#f6f6f6;
-      margin:0;
-      color:#222;
-    }
-    header{
-      background:linear-gradient(135deg,#0b2c4d,#c9a24d);
-      color:#fff;
-      padding:30px;
-      text-align:center;
-    }
-    .content{
-      max-width:900px;
-      margin:40px auto;
-      background:#fff;
-      padding:30px;
-      border-radius:10px;
-      line-height:1.9;
-    }
-    a{
-      color:#0b2c4d;
-      font-weight:bold;
-      text-decoration:none;
-    }
+  <style>
+
+.gallery {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0b2c4d;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+</style>
+
   </style>
   <section class="gallery">
   <h2>بيئة التعلم والتصميم</h2>
@@ -67,7 +71,7 @@
 </div>
 
 </body>
-  <section class="gallery">
+<section class="gallery">
   <h2>بيئة التعلم والتصميم</h2>
 
   <div class="gallery-grid">
@@ -76,5 +80,8 @@
     <img src="images/abstract-bg.jpg" alt="خلفية تصميم عصرية">
   </div>
 </section>
+
+</body>
+
 
 </html>
